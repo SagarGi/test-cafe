@@ -1,0 +1,5 @@
+{
+  "browsers": "chrome",
+  "baseUrl": "https://devexpress.github.io/testcafe/example",
+  "src": "tests/e2e/fixtures/test.js"
+}

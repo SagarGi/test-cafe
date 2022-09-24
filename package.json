@@ -1,0 +1,16 @@
+{
+  "name": "test-cafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome",
+    "test:with:config": "testcafe"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^2.0.0"
+  }
+}
