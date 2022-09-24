@@ -13,6 +13,10 @@ const loginErrorMessageSelector = Selector('.error-message-container > h3')
 test('Login with valid credential to saucedemo should browse us to home page' , async t => {
     // fill username
     await t.typeText(usernameSelector, "standard_user")
+
+    // using debug tools
+    // await t.debug();
+    // await t.setNativeDialogHandler(() => true)
     // fill password
     await t.typeText(passwordSelector, "secret_sauce")
     // click login button

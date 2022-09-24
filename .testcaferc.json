@@ -1,5 +1,22 @@
 {
   "browsers": "chrome",
   "baseUrl": "https://saucedemo.com",
-  "src": "tests/e2e/fixtures/test.js"
+  "src": "tests/e2e/fixtures/test.js",
+  "speed": 1,
+  "screenshots": {
+    "takeOnFails": true,
+    "fullPage": true,
+    "thumbnails": false,
+    "path": "./screenshots"
+  },
+  "videoPath": "reports/videos",
+  "videoOptions": {
+    "singleFile": true,
+    "failedOnly": true
+  },
+//  "debugMode": true
+  "filter": {
+    "fixture": "My First Test with config",
+//    "test": ""
+  }
 }
