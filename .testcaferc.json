@@ -1,5 +1,5 @@
 {
   "browsers": "chrome",
-  "baseUrl": "https://devexpress.github.io/testcafe/example",
+  "baseUrl": "https://saucedemo.com",
   "src": "tests/e2e/fixtures/test.js"
 }
