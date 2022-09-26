@@ -1,5 +1,6 @@
 {
   "browsers": "chrome",
+  "concurrency": 2,
   "baseUrl": "https://saucedemo.com",
   "src": "tests/e2e/fixtures/test.js",
   "speed": 1,
@@ -16,7 +17,7 @@
   },
 //  "debugMode": true
   "filter": {
-    "fixture": "My First Test with config",
+    "fixture": "My First Test with config"
 //    "test": ""
   }
 }

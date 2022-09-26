@@ -10,7 +10,7 @@ const loginButtonSelector = Selector('#login-button')
 const appLogoSelector = Selector('.app_logo')
 const loginErrorMessageSelector = Selector('.error-message-container > h3')
 
-test('Login with valid credential to saucedemo should browse us to home page' , async t => {
+test.only('Login with valid credential to saucedemo should browse us to home page' , async t => {
     // fill username
     await t.typeText(usernameSelector, "standard_user")
 
